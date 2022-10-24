@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name="All Test Suite">
+        <test verbose="2" preserve-order="true" name="D:/Development/IdeaProjects/Apex/src/test/java/test/BuyAProductTest.java">
+            <classes>
+                <class name="test.BuyAProductTest">
+                    <methods>
+                        <include name="searchForItem"/>
+                        <include name="selectItem"/>
+                        <include name="buySelectedItem"/>
+                        <include name="loggin"/>
+                        <parameter name="val1" value="1" />
+                        <parameter name="val2" value="2" />
+                        <include name="parametrizationTest"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+</suite>
